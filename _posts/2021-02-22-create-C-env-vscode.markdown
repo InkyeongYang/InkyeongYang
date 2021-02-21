@@ -18,6 +18,7 @@ C언어의 컴파일러인 gcc패키지를 설치합니다.
 $ yum install -y gcc
 ```
 gcc커맨드를 이용해서 버전을 확인해 봅니다.
+
 ```bash
 $ gcc --version
 gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44)
@@ -25,8 +26,10 @@ Copyright (C) 2015 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
-정상적으로 설치된 것은 확인하기 위해 "Hello C language world!"라는 문자열을 출력하는 간단한 코드를 작성합니다. C프로그램은 확장자 ".c"인 소스파일을 통해 만들어집니다.
-```c++
+
+정상적으로 설치된 것을 확인하기 위해 "Hello C language world!"라는 문자열을 출력하는 간단한 코드를 작성합니다. C프로그램은 확장자 ".c"인 소스파일을 통해 만들어집니다.
+
+```
 #include <stdio.h>
 
 int main(void)
