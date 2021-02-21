@@ -24,11 +24,11 @@ plainwhite:
     #- home
     - page
     - post
-  #navigation:
-    #- title: Programming Languages
-    #  url: "/prog_languages"
-    #- title: Resume
-    #  url: "/resume"
+  navigation:
+    - title: My Work
+      url: "/my-work"
+    - title: Resume
+      url: "/resume"
   # generate social links in footer
   #social_links:
     #twitter: samarsault
